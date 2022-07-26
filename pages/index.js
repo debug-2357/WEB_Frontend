@@ -2,9 +2,9 @@ import React from 'react';
 
 const Index = () => {
   return (
-    <>
-      <div className="asdf">인덱스</div>
-    </>
+    <div>
+      <div>index</div>
+    </div>
   );
 };
 export default Index;

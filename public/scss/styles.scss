@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+@mixin max-screen($media-model) {
+  //max-screen 이하일 경우
+  @media screen and (max-width: $media-model) {
+    @content;
+  }
+}
+
+@mixin max-screen($media-model) {
+  //max-screen 이상일 경우
+  @media screen and (min-width: $media-model) {
+    @content;
+  }
+}
+
+@mixin screen($media-model-min, $media-model-max) {
+  // min 이상, max 이하
+  @media screen and (min-width: $media-model-min) and (max-width: $media-model-max) {
+    @content;
+  }
+}
