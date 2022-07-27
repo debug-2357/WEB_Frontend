@@ -18,13 +18,21 @@ body {
 }
 
 .HeaderBody {
+  display: flex;
+  justify-content: space-between;
   font-family: $Noto-Serif;
   font-size: 0.5em;
   background-color: $black;
   width: 100%;
   height: 2rem;
   color: $white;
-  text-align: right;
+  .LogoImg {
+    width: 2rem;
+  }
+  .MainBtn {
+  }
+  .RecruitBtn {
+  }
 }
 
 @mixin max-screen($media-model) {
