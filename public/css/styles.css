@@ -8,25 +8,37 @@ html {
 #__next {
   height: 100vh;
 }
+.FooterBody {
+  bottom: 0;
+  font-family: 'Noto Serif KR', serif;
+  font-size: 0.3em;
+  background-color: #252a34;
+  height: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.Backgroud,
 .FooterBody,
 .HeaderBody {
-  font-family: 'Noto Serif KR', serif;
-  background-color: #252a34;
+  position: fixed;
   width: 100%;
+}
+.HeaderBody {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Noto Serif KR', serif;
+  font-size: 0.5em;
+  background-color: #252a34;
   height: 2rem;
   color: #fff;
 }
-.FooterBody {
-  position: fixed;
-  bottom: 0;
-  font-size: 0.3em;
-  text-align: center;
-}
-.HeaderBody {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.5em;
-}
 .HeaderBody .LogoImg {
   width: 2rem;
+}
+.Backgroud {
+  background-image: url(../images/Background.jpg);
+  background-size: cover;
+  height: 100%;
+  bottom: 0;
 }
