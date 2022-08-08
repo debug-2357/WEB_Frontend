@@ -18,7 +18,7 @@ const AppLayout = ({ children }) => {
             </Button>
           </div>
         </div>
-        {children}
+        <div className="MainBody">{children}</div>
         <div className={'FooterBody'}>copyrightⓒ2022. debug. All rights reserved.</div>
       </div>
     </>

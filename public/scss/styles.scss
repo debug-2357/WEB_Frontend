@@ -23,8 +23,12 @@ body {
   text-align: center;
 }
 
+.MainBody {
+  width: 100%;
+  height: 93.5vh;
+}
+
 .HeaderBody {
-  position: fixed;
   top: 0px;
   display: flex;
   justify-content: space-between;
