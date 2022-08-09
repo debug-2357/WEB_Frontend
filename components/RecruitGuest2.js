@@ -12,13 +12,6 @@ const RecruitGuest2 = (props) => {
     { id: 1, title: '학번을 입력해주세요' },
     { id: 2, title: '이름을 입력해주세요' },
     { id: 3, title: '지원하게 된 계기를 입력해주세요' },
-    { id: 4, title: '지원하게 된 계기를 입력해주세요' },
-    { id: 5, title: '지원하게 된 계기를 입력해주세요' },
-    { id: 6, title: '지원하게 된 계기를 입력해주세요' },
-    { id: 7, title: '지원하게 된 계기를 입력해주세요' },
-    { id: 8, title: '지원하게 된 계기를 입력해주세요' },
-    { id: 9, title: '지원하게 된 계기를 입력해주세요' },
-    { id: 10, title: '지원하게 된 계기를 입력해주세요' },
   ];
   return (
     <div className={`${styles.Wrap}`}>
