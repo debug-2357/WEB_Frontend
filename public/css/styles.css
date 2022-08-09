@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Song+Myung&display=swap);
 body,
 html {
   margin: 0;
@@ -36,6 +37,15 @@ html {
 }
 .HeaderBody .LogoImg {
   width: 2rem;
+}
+.HeaderBody .MainBtn a,
+.HeaderBody .RecruitBtn a {
+  text-decoration: none;
+  color: #2196f3;
+}
+.HeaderBody .MainBtn a :active,
+.HeaderBody .RecruitBtn a :active {
+  color: #1769aa;
 }
 .Backgroud {
   position: fixed;
