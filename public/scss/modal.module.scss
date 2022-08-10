@@ -1,0 +1,68 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  overflow-y: auto;
+  z-index: 9999;
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  .wrapper {
+    margin-top: 5rem;
+    padding: 2rem 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 0.1rem solid white;
+      button {
+        border: none;
+        padding: 1rem 1rem;
+        position: absolute;
+        left: 0;
+        padding-left: 16rem;
+        background-color: black;
+        color: white;
+        font-size: 4rem;
+      }
+      .title {
+        font-size: 4rem;
+      }
+    }
+    .context {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 2.5rem;
+      h3 {
+        margin-bottom: 4rem;
+      }
+      span {
+        margin-bottom: 7rem;
+        opacity: 0.75;
+      }
+    }
+    .footer {
+      margin-bottom: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      button {
+        padding: 2rem 0;
+        width: 30vw;
+        font-size: 2rem;
+        opacity: 0.9;
+        border-radius: 0.75rem;
+        margin-top: 3rem;
+      }
+    }
+  }
+}

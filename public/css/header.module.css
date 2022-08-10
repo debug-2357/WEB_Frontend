@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 6vh;
+  padding: 0 16rem;
+  color: #fff;
+  background-color: #000;
+}
+.header .toggle {
+  margin-left: 2rem;
+}

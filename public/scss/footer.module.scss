@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2.5rem;
+  height: 23vh;
+  color: white;
+  background-color: black;
+  span {
+    margin-top: 0.3rem;
+    margin-bottom: 2.6rem;
+  }
+  .icons {
+    span {
+      padding: 0 1rem;
+    }
+  }
+}
