@@ -4,6 +4,6 @@ import Login from '../components/Auth/Login';
 import SingUp from '../components/Auth/SingUp';
 
 const Auth = () => {
-  return <Login />;
+  return <SingUp />;
 };
 export default Auth;
