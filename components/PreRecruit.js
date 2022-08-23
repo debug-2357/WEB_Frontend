@@ -23,14 +23,12 @@ const PreRecruit = () => {
       </Box>
       <div className={styles.Bottom}>
         <motion.span initial="initial" whileInView="animate" variants={defaultFadeInLeftVariants}></motion.span>
-        <div>
-          <motion.h3 initial="initial" whileInView="animate" variants={defaultFadeInLeftVariants}>
-            디버그와 함께할 <span className={styles.highlight}>인재</span>의 지원을 기다립니다.
-          </motion.h3>
-          <Button variant="outlined">
-            <a href="/recruit/guestrecruit">지원모집 확인</a>
-          </Button>
-        </div>
+        <motion.h3 initial="initial" whileInView="animate" variants={defaultFadeInLeftVariants}>
+          디버그와 함께할 <span className={styles.highlight}>인재</span>의 지원을 기다립니다.
+        </motion.h3>
+        <Button variant="outlined">
+          <a href="/recruit/guestrecruit">지원모집 확인</a>
+        </Button>
       </div>
     </div>
   );
