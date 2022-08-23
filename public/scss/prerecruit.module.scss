@@ -1,16 +1,18 @@
 .Wrap {
   width: 100vw;
   color: white;
-  margin: auto;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   .TextContent {
     margin: 2em;
     padding: 0%;
-    &:hover {
-      background-color: grey;
-      opacity: [0.9, 0.8, 0.7];
+    text-align: center;
+    .TextTitle {
+      width: 80vw;
+      padding: 2em;
+      float: right;
+      margin: 0;
+      clear: both;
     }
     .answer {
       margin: 0;
@@ -22,8 +24,14 @@
   }
   .Bottom {
     position: absolute;
-    width: 100vw;
-    bottom: 3em;
     margin: 3em;
+    bottom: 4em;
+  }
+  a {
+    color: #2196f3;
+    text-decoration: none;
+    :active {
+      color: #2196f3;
+    }
   }
 }
