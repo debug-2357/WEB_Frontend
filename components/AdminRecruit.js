@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import styles from '../public/css/adminrecruit.module.css';
+import { motion } from 'framer-motion';
+import { defaultFadeInLeftVariants } from './motion';
 
 const AdminRecruit = () => {
   const dummy2 = [
@@ -44,13 +46,15 @@ const AdminRecruit = () => {
             <span className={styles.NameSub}>[{v.recruitPeriod.yearOf}]</span>
           </AccordionSummary>
           {v.recruitPeriod.questions.map((v2) => (
-            <AccordionDetails key={v2}>
-              <div className={styles.Details}>
-                <h3>{v2}</h3>
-                <p>{v.content[v2]}</p>
-                <hr />
-              </div>
-            </AccordionDetails>
+            <motion.div initial="initial" whileInView="animate" variants={defaultFadeInLeftVariants}>
+              <AccordionDetails key={v2}>
+                <div className={styles.Details}>
+                  <h3>{v2}</h3>
+                  <p>{v.content[v2]}</p>
+                  <hr />
+                </div>
+              </AccordionDetails>
+            </motion.div>
           ))}
         </Accordion>
       ))}

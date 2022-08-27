@@ -1,8 +1,8 @@
 //적용 테스트용 recruit page
 import React from 'react';
-import RecruitGuest2 from '../../components/RecruitGuest2';
+import RecruitGuest from '../../components/RecruitGuest';
 
 const Recruit = () => {
-  return <RecruitGuest2 count="3" />;
+  return <RecruitGuest />;
 };
 export default Recruit;
