@@ -1,0 +1,15 @@
+.Wrap {
+  display: grid;
+  width: 80vw;
+  color: white;
+  margin: auto;
+  .MainTitle {
+    text-align: center;
+  }
+  .NameSub {
+    font-weight: 600;
+  }
+  .Details {
+    padding: 0.5em;
+  }
+}

@@ -1,3 +1,5 @@
+@import '_fontColor.scss';
+
 .Wrap {
   height: 100%;
   width: 100%;
@@ -9,6 +11,23 @@
   }
   .AnswerWrap {
     margin: 3em;
+    .AnswerDummyWrap {
+      margin: auto;
+      max-width: 60%;
+      min-width: 50%;
+      .AnswerField {
+        border: none;
+        margin-bottom: 2em;
+      }
+      .questionname {
+        color: white;
+      }
+      .textfield {
+        border-radius: 0.8em;
+        background: $white;
+        margin: 1em;
+      }
+    }
   }
   .RecruitAnswerSubmitWrap {
     text-align: center;
